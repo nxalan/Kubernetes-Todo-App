@@ -4,6 +4,9 @@
 This repository contains instructions of how to run a simple to-do app made in react/express developed with the goal of training the usage of kubernetes.
 This application is made with the help of [Docker & Kubernetes: The Practical Guide](https://www.udemy.com/course/docker-kubernetes-the-practical-guide/).
 
+![architecture](./images/architecture.jpeg) 
+
+
 ## Prerequisites
 
 I have used [minikube](https://kubernetes.io/docs/getting-started-guides/minikube/) to run a local Kubernetes instance. We will access this local Kubernetes with the client called `kubectl`.
@@ -42,9 +45,6 @@ We can get the frontend url running
 * minikube service frontend-service --url
 
 
-## DEMO
-
-![architecture](./images/architecture.jpeg) 
-
+## FRONTEND
 
 ![frontend](./images/frontend.png)
