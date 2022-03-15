@@ -45,6 +45,6 @@ We can get the frontend url running
 * minikube service frontend-service --url
 
 
-## FRONTEND
+## Frontend Demo
 
 ![frontend](./images/frontend.png)
